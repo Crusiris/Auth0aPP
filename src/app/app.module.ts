@@ -9,6 +9,10 @@ import { HomeComponent } from "./components/home/home.component";
 import { PreciosComponent } from "./components/precios/precios.component";
 import { ProtegidaComponent } from "./components/protegida/protegida.component";
 
+// Services, se declaran en los providers
+
+import { AuthService } from "./services/auth.service";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +22,7 @@ import { ProtegidaComponent } from "./components/protegida/protegida.component";
     ProtegidaComponent
   ],
   imports: [BrowserModule, APP_ROUTING],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
