@@ -12,6 +12,7 @@ import { ProtegidaComponent } from "./components/protegida/protegida.component";
 // Services, se declaran en los providers
 
 import { AuthService } from "./services/auth.service";
+import { AuthGuardService } from "./services/auth-guard.service";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { AuthService } from "./services/auth.service";
     ProtegidaComponent
   ],
   imports: [BrowserModule, APP_ROUTING],
-  providers: [AuthService],
+  providers: [AuthService, AuthGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
