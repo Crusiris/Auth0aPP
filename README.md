@@ -50,11 +50,11 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-#Author
+##Author
 
     Crusiris Nuñez
 
-#License
+##License
 
 This project is licensed under the MIT License - see the LICENSE.md file for detail
 
